@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>My Shop</title>
+    <link rel="stylesheet" href="view.css" type="text/css">
+</head>
+<body onload="getstoreReviews()">
+   
+    <div class="topnav">     
+  <a href="login.html">LogOut</a>
+  <ul><li id="display"></li></ul>
+      
+    </div>
+
+<div id = "reviews" style="padding:15px">
+<textarea rows = "25" cols = "110" id="description" >
+    Enter details here....       
+         </textarea><br>
+    <button type="button" id="save" onclick="add()">Save!</button>
+</div>
+ 
+</body>
+<script src="reviews.js"></script>
+    
+   
+<!--
+    <a href="thanksForShopping.html">
+         <button id="start" onclick="alterTable()" >Pay Bill</button></a>
+-->
+</html>

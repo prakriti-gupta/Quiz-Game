@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>My Shop</title>
+     <link rel="stylesheet" href="homePortal.css" type="text/css">
+   
+    <style>
+     .btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+   
+<body onload="getStoredQuestions()">
+   
+
+    <div class="topnav">
+        <ul><li id="display"></li></ul>
+       <a href="#" class="active" onclick="logoutUser()">Logout</a>
+        <a href="seeReviews.html" >See Reviews</a>
+        <a href="#" id="aAddProduct" onclick="openNav()" >Add Question</a>
+       
+     </div>
+   <!--   -->
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       
+       
+  <div class="overlay-content" id="divAddQuestions">
+  </div>
+</div>
+
+
+<div id = "divListProducts" style="padding:15px">
+</div>
+
+   
+</body>
+<script src="script1.js"></script>
+ 
+</html>

@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>My Shop</title>
+     <link rel="stylesheet" href="homePortal.css" type="text/css">
+   
+    <style>
+     .btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+   
+<body onload="getStoredReviews()">
+   
+
+    <div class="topnav">
+        <ul><li id="display"></li></ul>
+       <a href="#" class="active" onclick="logoutUser()">Logout</a>
+       
+       
+     </div>
+   <div id = "divAddReviews">
+</div> 
+<div>
+    <br><br><br>
+         
+</div>
+<div id = "divListReviews" style="padding:15px">
+</div>
+
+   
+</body>
+<script src="seeReviews.js"></script>
+ 
+</html>
