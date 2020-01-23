@@ -6,3 +6,8 @@ quiz game having sms authentication with timer and comments functionality
 - score will be calaculated after game
 - sms authentication
 - User functionality to report for any bug
+
+## Technology Used
+- NodeJs - Backend
+- HTML,CSS - Frontend
+- MongoDb - Database
